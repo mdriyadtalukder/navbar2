@@ -130,16 +130,21 @@ li a:hover {
 
     .header #nav-check:checked~.nav-toggler span {
         background-color: transparent;
+        
     }
 
     .header #nav-check:checked~.nav-toggler span::before {
         top: 0;
         transform: rotate(45deg);
+        transition: all 0.3s ease;
+
     }
 
     .header #nav-check:checked~.nav-toggler span::after {
         top: 0;
         transform: rotate(-45deg);
+        transition: all 0.3s ease;
+
     }
 
 }
